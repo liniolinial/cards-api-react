@@ -1,0 +1,22 @@
+//dependencies
+@use "variables" as vars;
+@use "fonts" as fonti;
+
+.Deck {
+  font-family: vars.$font-title;
+}
+
+.Deck-cardarea {
+  margin-top: 80px;
+}
+
+.Deck-title {
+  color: azure;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
