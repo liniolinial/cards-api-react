@@ -59,12 +59,14 @@ export default class Deck extends Component {
     ));
     return (
       <div className='Deck'>
-        <h1 className='Deck-title'>&#x2666; Card Dealer &#x2666;</h1>
-        <h2 className='Deck-title subtitle'>
+        <h1 className='Deck__title'>&#x2666; Card Dealer &#x2666;</h1>
+        <h2 className='Deck__title Deck__subtitle'>
           &#x2666;A little demo made with React &#x2666;
         </h2>
-        <button onClick={this.getCard}>Get Card!</button>
-        <div className='Deck-cardarea'>{cards}</div>
+        <button className='Deck__btn' onClick={this.getCard}>
+          Get Card!
+        </button>
+        <div className='Deck__cardarea'>{cards}</div>
       </div>
     );
   }
